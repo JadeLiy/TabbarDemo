@@ -36,9 +36,10 @@
         } else {
             self.dataArr = [self.dataSource mutableCopy];
         }
-        
+        [self setupUI];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         self.dataArr = [self.dataSource mutableCopy];
+        [self setupUI];
     }];
 }
 
@@ -224,8 +225,8 @@
             @"foneName":@"HelveticaNeue",
             @"selectedColor":[UIColor orangeColor],
             @"unselectedColor":[UIColor grayColor],
-            @"selectedImage":@"tab_seletImg0",
-            @"unselectedImage":@"tab_unseletImg0",
+            @"selectedImage":@"tabbarImg1",
+            @"unselectedImage":@"tabbarImg",
             @"ClassVC":ViewController.class,
             @"isNew":@"",
             @"url":@"",
@@ -236,8 +237,8 @@
             @"foneName":@"HelveticaNeue",
             @"selectedColor":[UIColor orangeColor],
             @"unselectedColor":[UIColor grayColor],
-            @"selectedImage":@"tab_seletImg1",
-            @"unselectedImage":@"tab_unseletImg1",
+            @"selectedImage":@"tabbarImg1",
+            @"unselectedImage":@"tabbarImg",
             @"ClassVC":ViewController.class,
             @"isNew":@"",
             @"url":@"",
@@ -248,8 +249,8 @@
             @"foneName":@"HelveticaNeue",
             @"selectedColor":[UIColor orangeColor],
             @"unselectedColor":[UIColor grayColor],
-            @"selectedImage":@"tab_seletImg2",
-            @"unselectedImage":@"tab_unseletImg2",
+            @"selectedImage":@"tabbarImg1",
+            @"unselectedImage":@"tabbarImg",
             @"ClassVC":ViewController.class,
             @"isNew":@"",
             @"url":@"",
@@ -260,8 +261,8 @@
             @"foneName":@"HelveticaNeue",
             @"selectedColor":[UIColor orangeColor],
             @"unselectedColor":[UIColor grayColor],
-            @"selectedImage":@"tab_seletImg3",
-            @"unselectedImage":@"tab_unseletImg3",
+            @"selectedImage":@"tabbarImg1",
+            @"unselectedImage":@"tabbarImg",
             @"ClassVC":ViewController.class,
             @"isNew":@"",
             @"url":@"",
