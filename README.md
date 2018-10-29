@@ -4,5 +4,5 @@ This is a TabbarDemo for network requests to dynamically change the bottom navig
 
 If there is any deficiency in this demo, please feel free to propose Suggestions for modification.
 
-(Suitable for iOS9)
+(For iOS10 and above)
 
